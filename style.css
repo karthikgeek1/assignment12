@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 70px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+}
+.banner{
+    height: 470px;
+    background-image: url("https://www.91-cdn.com/hub/wp-content/uploads/2021/10/These-are-the-best-gadgets-priced-under-Rs-3000.jpg");
+    background-size: cover;
+}
+.user{
+    margin-left: 25px;
+    width: 400px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: end;
+    justify-content: space-around;
+    color: white;
+}
+.dropmenu>select{
+    background-color: black;
+    color:white;
+    font-size: 17px;
+    border: none;
+    font-weight: bold;
+}
+.dropmeu>p{
+    margin-left: 5px;
+}
+.cart{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: end;
+}
+.icon1{
+    font-size: 45px;
+}
+.cart>p{
+    font-size: 20px;
+}
+.searchbar{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+.searchbar>input{
+    height: 40px;
+    width: 400px;
+    border: none;
+}
+.searchbar>i{
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(226, 178, 19);
+    border-radius: 0 5px 5px 0;
+}
+.place{
+    font-weight: bold;
+    display: grid;
+    grid-auto-flow: column;
+}
+.searchbar>select{
+    font-size: 20px;
+    padding: 8px 0px;
+    border-width: 0px;
+    background-color: rgb(170, 175, 180);
+    border-radius: 5px 0 0 5px;
+    margin-left: 15px;
+}
+.logo img{
+    height: 70px;
+    background-repeat: no-repeat;
+}
+.country{
+    color: white;
+    margin:0 20px;
+}
+.banner{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content:center ;
+    align-items:end;
+
+}
+main{
+    padding: 15px;
+    background-color: rgb(162, 175, 175);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 120px 210px 320px;
+    grid-template-areas:
+    "item1 item2 item3 item4"
+    "item1 item2 item3 item4"
+    "item5 item6 item7 item8"
+    ;
+    grid-gap: 15px;
+}
+
+.item1{
+    background-color: white;
+    grid-area:item1;    
+}
+.item1>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pantry>div>img{
+    height: 120px;
+    width: 120px;
+}
+.pantry{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.pantry>div{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.item2{
+    background-color: white;
+    grid-area:item2; 
+}
+.item2>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Toys{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.Toys>div{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Toys>div>img{
+    height: 120px;
+    width: 120px;
+}
+.item3{
+    background-color: white;
+    grid-area:item3; 
+}
+
+.item3>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.car{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.car>img{
+    height: 220px;
+    width: 200px;
+}
+.item3>button{
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 10px;
+    margin-left: 30px;
+}
+.item4{
+    background-color: white;
+    grid-area:item4;
+    padding: 20px 15px;
+}
+.item4>p{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 20px;
+}
+.item5{
+    background-color: white;
+    grid-area:item5;
+}
+.item5>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.item5>button{
+    margin:0 20px;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.item6>button{
+    margin:0 20px;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.item7>button{
+    margin:0 20px;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.item6{
+    background-color: white;
+    grid-area:item6;
+}
+.item6>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.item7{
+    background-color: white;
+    grid-area:item7;
+}
+.item7>p{
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.itemx{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.itemx>img{
+    height: 220px;
+    width: 280px;
+}
+.item8{
+    background-color: white;
+    grid-area:item8;
+}
+
+.item8>p{
+    margin: 10px 20px 0 20px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.deal{
+    text-align: center;
+}
+.deal>img{
+   height: 170px;
+   width: 200px;
+}
+.item8>h3{
+    color: red;
+    font-size: 13px;
+}
+.item8>h3>span{
+    font-size: 15px;
+    background-color: red;
+    margin-left: 20px;
+    padding: 5px;
+    color: white;
+}
+.item8>h4{
+    margin: 10px 0 5px 20px;
+}
+.item8>h5{
+    margin: 0 0 5px 20px;
+}
+.item8>a{
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
